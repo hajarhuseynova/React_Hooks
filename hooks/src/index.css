@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --primary-color: #392467;
+  --secondary-color: #5d3587;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar {
+  text-align: center;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar > h1 {
+  margin: 10px 0;
+}
+.note-list {
+  margin: 20px;
+}
+.note-list ul {
+  list-style-type: none;
+}
+.note-list li {
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: var(--secondary-color);
+}
+.note-list .title {
+  font-size: 20px;
+}
+li:hover {
+  text-decoration: line-through;
+}
+.note-list p {
+  font-style: italic;
+  font-size: 15px;
+}
+form {
+  padding: 20px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  color: #fff;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  color: #fff;
+  border: 0;
+  display: block;
+  background-color: var(--secondary-color);
+  padding: 6px 20px;
+}
+.empty {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
